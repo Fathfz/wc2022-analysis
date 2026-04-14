@@ -1,41 +1,41 @@
-# Argentina vs France — World Cup Final 2022 Analysis
+# Argentina vs France - World Cup Final 2022 Analysis
 
-Data storytelling project on the **2022 FIFA World Cup Final** between **Argentina** and **France**, built with Python, Jupyter notebooks, football event data, and tactical visualizations.
+English | [Français](README.fr.md)
 
-The project combines:
+Football data storytelling project focused on the **2022 FIFA World Cup Final** between **Argentina** and **France**, built with Python, Jupyter notebooks, football event data, tactical interpretation, and visual analytics.
+
+This repository is designed as both:
+- a **portfolio project** in sports analytics,
+- and a **publishable analysis workflow** that moves from context, to data preparation, to match interpretation, to player-level insights.
+
+## Project Overview
+
+This project explores a central question:
+
+**How did Argentina control large phases of the 2022 World Cup Final, and how did France still manage to come back into the match?**
+
+To answer it, the project combines:
 - historical context before the final,
-- data collection and preparation,
+- match and tournament data preparation,
 - team-level tactical analysis,
-- player-level individual analysis.
+- player-level interpretation,
+- exported visual storytelling assets,
+- and a Streamlit application layer for presentation.
 
-The notebooks are written and commented in **French**, with a strong focus on making the analysis readable, coherent, and publishable.
+## Main Objectives
 
-## Project Goal
-
-This project answers a simple question:
-
-**How did Argentina control large parts of the final, and how did France still manage to come back into the match?**
-
-The analysis explores:
-- possession and ball circulation,
-- shot volume and xG,
-- pressing structure,
-- passing networks,
-- key player contributions,
-- the tactical contrast between Argentina's **4-3-3** and France's **4-2-3-1**.
+- Compare **Argentina's 4-3-3** and **France's 4-2-3-1**
+- Study how game control, passing structure, and pressing shape the final
+- Analyze shots, xG, momentum, recoveries, and passing networks
+- Connect collective patterns with individual player performances
+- Turn notebook-based work into a stronger GitHub and portfolio project
 
 ## Main Insights
 
-- **Argentina controlled the structure of the game early**, with a denser passing network and a more connected midfield.
+- **Argentina controlled the initial structure of the match**, with a denser midfield and more stable passing connections.
 - **France's first phase was more fragmented**, with circulation relying more heavily on the back line and the flanks.
-- **The French comeback was driven by game-state changes and substitutions**, especially in a more chaotic and vertical phase.
-- **The player-level analysis confirms the team patterns**: Argentine midfielders were central to control, while France's most secure passing profiles were often deeper.
-
-## Preview
-
-![Global match dashboard](reports/figures/argentina_france_dashboard.png)
-
-![Match momentum](reports/figures/momentum_match.png)
+- **The French comeback was driven by game-state changes and substitutions**, especially in a more vertical and chaotic phase.
+- **Player-level analysis confirms the team-level reading**: Argentine midfielders were central to control, while France's safest passing profiles were often deeper.
 
 ## Repository Structure
 
@@ -53,23 +53,57 @@ wc2022-analysis/
 │   └── 03_player_analysis  .ipynb
 ├── reports/
 │   └── figures/
+├── docs/
+│   └── NOTEBOOK_BILINGUAL_TEMPLATE.md
 ├── requirements.txt
-└── README.md
+├── README.md
+└── README.fr.md
 ```
 
 ## Notebooks
 
 1. `00_context_and_historical_background cld.ipynb`  
-   Historical background, head-to-head context, FIFA rankings, World Cup legacy, and offensive danger-pass comparison.
+   Historical context, FIFA rankings, head-to-head results, World Cup legacy, and pre-final positioning of both teams.
 
 2. `01_data_collection_and_preparation.ipynb`  
-   Data sourcing, filtering, loading, and preparation of the 2022 final event data.
+   Data collection logic, filtering, final-match isolation, and preparation of the event data used throughout the project.
 
 3. `02_final_match_eda_and_tactical_overview.ipynb`  
-   Match-level tactical analysis: xG, shots, pressure, recoveries, momentum, passing structure, and collective dynamics.
+   Team-level tactical analysis of the final: xG, shots, pressure, recoveries, momentum, structures, and passing networks.
 
 4. `03_player_analysis  .ipynb`  
-   Individual analysis focused on player passing, dribbling, shots, pressure activity, movement zones, and tactical roles.
+   Player-level interpretation focused on passing, dribbling, shot profiles, pressure activity, movement, and tactical roles.
+
+## Language Strategy
+
+- The detailed notebooks are currently written in **French**
+- The repository presentation is being made **bilingual**
+- The next recommended step for the notebooks is **bilingual markdown cells** rather than full notebook duplication
+
+Why this approach:
+- it keeps a **single source of truth** for the analysis,
+- it avoids maintaining two separate notebook versions,
+- and it makes the repository easier to share with both French-speaking and English-speaking audiences.
+
+A reusable bilingual markdown pattern is available in:
+- [docs/NOTEBOOK_BILINGUAL_TEMPLATE.md](docs/NOTEBOOK_BILINGUAL_TEMPLATE.md)
+
+## Visual Preview
+
+![Global match dashboard](reports/figures/argentina_france_dashboard.png)
+
+![Match momentum](reports/figures/momentum_match.png)
+
+## Streamlit Application
+
+A first Streamlit version is available in:
+- `app/streamlit_app.py`
+
+The app is designed to follow the same logic as the notebooks:
+- historical context,
+- data preparation,
+- match-level tactical interpretation,
+- player-level insights.
 
 ## Run The Project Locally
 
@@ -79,7 +113,7 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-Launch the future Streamlit app:
+Launch the Streamlit app:
 
 ```bash
 streamlit run app/streamlit_app.py
@@ -95,23 +129,36 @@ jupyter lab
 
 - StatsBomb Open Data
 - Complementary historical football datasets stored in `data/raw/`
+- Processed intermediate files stored in `data/processed/`
+
+## Methodology Notes
+
+- Match and extra time are analyzed separately from the penalty shootout.
+- The penalty shootout is excluded from most tactical KPI shown in the project.
+- The `Pressure` metric from StatsBomb is interpreted as an **event count**, not as a direct measure of pressing quality.
+- The `xT` shown in the notebooks is a **simplified territorial-threat proxy**, not a full academic expected-threat model.
+
+## Skills Demonstrated
+
+- Python data analysis
+- Jupyter notebook storytelling
+- football event-data interpretation
+- tactical reasoning
+- data visualization
+- GitHub project presentation
+- Streamlit app structuring
 
 ## Project Status
 
 - Notebook analysis: completed
-- Markdown narration: completed
+- Markdown commentary: completed
 - GitHub portfolio setup: in progress
-- Streamlit application: next step
+- Bilingual repository documentation: in progress
+- Streamlit application: V1 available
 
-## Why This Project
+## Next Steps
 
-This repository is designed as a **portfolio project** combining:
-- sports analytics,
-- tactical reasoning,
-- data visualization,
-- notebook storytelling,
-- and, next, an interactive Streamlit application.
-
-## Next Step
-
-The next milestone is to turn this notebook-based project into a **Streamlit application** that presents the final as an interactive story rather than a static set of notebooks.
+- Finalize bilingual GitHub presentation
+- Add bilingual markdown sections inside the notebooks
+- Improve Streamlit polish and deployment readiness
+- Prepare GitHub and LinkedIn sharing assets
