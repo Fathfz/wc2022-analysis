@@ -2,40 +2,109 @@
 
 [English](README.md) | Français
 
-Projet de data storytelling football centré sur la **finale de la Coupe du Monde 2022** entre **l'Argentine** et **la France**, construit avec Python, des notebooks Jupyter, des données événementielles de match, une lecture tactique, et des visualisations.
+Pour beaucoup de passionnés, la **finale de la Coupe du Monde 2022** est la plus grande finale de l'histoire.
 
-Ce dépôt est pensé à la fois comme :
-- un **projet portfolio** en sports analytics,
-- et une **analyse publiable** allant du contexte historique à l'interprétation joueur par joueur.
+L'Argentine semblait contrôler le match, puis tout a explosé. La France est revenue de presque nulle part. **Kylian Mbappé** a signé un triplé. **Lionel Messi** a enfin soulevé la Coupe du Monde avec l'Argentine. La rencontre est passée d'une lecture tactique très structurée à un chaos total, avant de se refermer sur l'une des images les plus fortes de l'histoire du football.
 
-## Vue d'ensemble du projet
+C'est précisément pour cela que ce match mérite une analyse.
 
-Le projet cherche à répondre à une question centrale :
+Au-delà de l'émotion, cette finale pose une question plus profonde :
 
-**Comment l'Argentine a-t-elle contrôlé de larges séquences de la finale, et comment la France a-t-elle malgré tout réussi à revenir ?**
+**Si la France est revenue avec une telle violence, pourquoi l'Argentine a-t-elle malgré tout semblé structurellement supérieure pendant une grande partie du match ?**
 
-Pour y répondre, le projet combine :
-- le contexte historique avant la finale,
-- la préparation des données du tournoi et du match,
-- une analyse tactique collective,
-- une lecture individuelle des joueurs,
-- des visuels exportés,
-- et une couche Streamlit pour la présentation.
+Ce dépôt cherche à répondre à cette question à travers les données événementielles, la lecture tactique, le storytelling visuel et l'analyse individuelle.
 
-## Objectifs principaux
+## Pourquoi ce projet compte
 
-- Comparer le **4-3-3 argentin** et le **4-2-3-1 français**
-- Étudier comment la maîtrise du jeu, la structure des passes et le pressing façonnent la finale
-- Analyser les tirs, le xG, le momentum, les récupérations et les réseaux de passes
-- Relier les tendances collectives aux performances individuelles
-- Transformer un travail de notebooks en un projet GitHub plus fort pour le portfolio
+Ce projet n'est pas un simple résumé de match.
+
+Il s'agit d'un travail de football analytics construit autour d'une finale qui a réuni :
+- une entame argentine dominante,
+- une remontée française spectaculaire,
+- une tension énorme en prolongation,
+- un triplé de Mbappé,
+- le sacre final de Messi avec sa sélection,
+- et une richesse tactique bien plus grande que ne le dit le score seul.
+
+L'objectif est de passer de l'émotion à l'explication :
+- Qui a contrôlé le ballon ?
+- Qui a contrôlé le territoire ?
+- Pourquoi le match a-t-il basculé ?
+- Quels joueurs ont porté ces renversements ?
+
+## Problématique centrale
+
+Le projet repose sur une idée simple :
+
+**L'Argentine et la France n'ont pas menacé cette finale de la même manière.**
+
+L'Argentine a contrôlé davantage la structure du match :
+- plus de continuité dans la passe,
+- un milieu plus dense et plus connecté,
+- une progression territoriale plus régulière,
+- et un cadre collectif plus lisible.
+
+La France, elle, est restée vivante par la rupture :
+- attaques plus directes,
+- séquences explosives,
+- accélérations individuelles,
+- et impact exceptionnel de Mbappé à la finition.
+
+L'analyse complète ne cherche donc pas seulement à savoir qui a le plus créé, mais surtout **comment chaque équipe a créé du danger**.
+
+## Architecture de l'analyse
+
+Le dépôt suit une progression claire, du contexte jusqu'à l'interprétation :
+
+1. `00_context_and_historical_background cld.ipynb`  
+   Pose le décor avec le contexte historique, le classement FIFA, les confrontations directes et le cadre pré-finale.
+
+2. `01_data_collection_and_preparation.ipynb`  
+   Construit la base analytique en isolant la Coupe du Monde 2022, les matchs de l'Argentine et de la France, puis les événements détaillés de la finale.
+
+3. `02_final_match_eda_and_tactical_overview.ipynb`  
+   C'est le **cœur collectif** du projet. On y explique le match à travers :
+   - la structure des événements,
+   - les tirs et le xG,
+   - le pressing et les récupérations,
+   - le momentum et les bascules temporelles,
+   - la structure de passe,
+   - et la lecture tactique du 4-3-3 argentin face au 4-2-3-1 français.
+
+4. `03_player_analysis  .ipynb`  
+   C'est le **cœur individuel** du projet. On y étudie :
+   - Messi vs Mbappé,
+   - la qualité des tirs et la finition,
+   - le dribble et la création de déséquilibre,
+   - la sécurité technique à la passe,
+   - les pass maps individuelles,
+   - et la manière dont les profils joueurs prolongent l'histoire collective développée dans le notebook `02`.
+
+## Pourquoi les notebooks 02 et 03 sont les plus importants
+
+Le vrai centre analytique du projet se trouve dans les notebooks `02` et `03`.
+
+Le notebook `02` explique le match comme un système tactique :
+- pourquoi l'Argentine contrôle le début de rencontre,
+- pourquoi la France paraît longtemps plus fragmentée,
+- comment les changements modifient la texture du match,
+- et pourquoi la finale passe d'un contrôle argentin à un chaos offensif.
+
+Le notebook `03` pose ensuite la question naturelle :
+- si les structures collectives sont réelles,
+- quels joueurs les incarnent concrètement ?
+
+C'est là que le contraste devient particulièrement fort :
+- **Messi** apparaît comme un joueur de continuité, de liaison et de maîtrise,
+- **Mbappé** comme un joueur de rupture, d'accélération et de violence offensive,
+- et les autres profils permettent d'expliquer pourquoi l'Argentine paraît plus structurée, tandis que la France reste capable de détruire le cadre en quelques instants.
 
 ## Enseignements clés
 
-- **L'Argentine contrôle mieux la structure initiale du match**, avec un milieu plus dense et des connexions plus stables.
-- **La première phase française est plus fragmentée**, avec une circulation davantage portée par la ligne défensive et les côtés.
-- **Le retour français vient surtout du changement de dynamique du match et des entrées**, dans une phase plus verticale et plus chaotique.
-- **L'analyse individuelle prolonge l'analyse collective** : les milieux argentins portent la maîtrise, tandis que les profils français les plus sûrs à la passe sont souvent plus bas.
+- **L'Argentine a mieux contrôlé la structure du match**, surtout grâce à la densité de son milieu et à la continuité de sa circulation.
+- **La France n'a pas repris le contrôle progressivement** ; elle a transformé le match par des séquences courtes, explosives et à très fort impact.
+- **La finale change de nature après la 80e minute**, en passant d'une supériorité argentine maîtrisée à un chaos offensif presque total.
+- **Messi et Mbappé symbolisent deux formes d'influence différentes** : l'une fondée sur la continuité et la création, l'autre sur la rupture et la finition.
 
 ## Structure du dépôt
 
@@ -46,6 +115,8 @@ wc2022-analysis/
 ├── data/
 │   ├── processed/
 │   └── raw/
+├── docs/
+│   └── NOTEBOOK_BILINGUAL_TEMPLATE.md
 ├── notebooks/
 │   ├── 00_context_and_historical_background cld.ipynb
 │   ├── 01_data_collection_and_preparation.ipynb
@@ -53,57 +124,22 @@ wc2022-analysis/
 │   └── 03_player_analysis  .ipynb
 ├── reports/
 │   └── figures/
-├── docs/
-│   └── NOTEBOOK_BILINGUAL_TEMPLATE.md
 ├── requirements.txt
 ├── README.md
 └── README.fr.md
 ```
 
-## Notebooks
+## Note sur la langue
 
-1. `00_context_and_historical_background cld.ipynb`  
-   Contexte historique, classement FIFA, confrontations directes, héritage en Coupe du Monde, et positionnement des deux équipes avant la finale.
-
-2. `01_data_collection_and_preparation.ipynb`  
-   Logique de collecte, filtrage, isolation de la finale, et préparation des données événementielles utilisées dans le projet.
-
-3. `02_final_match_eda_and_tactical_overview.ipynb`  
-   Analyse collective de la finale : xG, tirs, pressions, récupérations, momentum, structures et réseaux de passes.
-
-4. `03_player_analysis  .ipynb`  
-   Lecture individuelle des joueurs à travers les passes, dribbles, tirs, activités défensives, zones d'influence et rôles tactiques.
-
-## Stratégie linguistique
-
-- Les notebooks détaillés sont actuellement en **français**
-- La présentation du dépôt devient progressivement **bilingue**
-- La prochaine étape recommandée pour les notebooks est l'ajout de **cellules markdown bilingues**, plutôt qu'une duplication complète des notebooks
-
-Pourquoi ce choix :
-- il permet de garder une **seule source de vérité** pour l'analyse,
-- il évite de maintenir deux versions complètes en parallèle,
-- et il rend le dépôt plus simple à partager avec un public francophone et anglophone.
-
-Un modèle réutilisable est disponible ici :
-- [docs/NOTEBOOK_BILINGUAL_TEMPLATE.md](docs/NOTEBOOK_BILINGUAL_TEMPLATE.md)
+- La présentation du dépôt est bilingue
+- Les notebooks contiennent désormais des sections markdown en **français et en anglais**
+- Le code et les outputs restent uniques, ce qui permet de conserver une logique analytique cohérente
 
 ## Aperçu visuel
 
 ![Dashboard global du match](reports/figures/argentina_france_dashboard.png)
 
 ![Momentum du match](reports/figures/momentum_match.png)
-
-## Application Streamlit
-
-Une première version de l'application Streamlit est disponible dans :
-- `app/streamlit_app.py`
-
-L'application suit la même logique que les notebooks :
-- contexte historique,
-- préparation des données,
-- lecture tactique du match,
-- analyse individuelle.
 
 ## Lancer le projet en local
 
@@ -128,37 +164,12 @@ jupyter lab
 ## Sources de données
 
 - StatsBomb Open Data
-- Jeux de données historiques complémentaires stockés dans `data/raw/`
+- Jeux de données historiques stockés dans `data/raw/`
 - Fichiers intermédiaires préparés dans `data/processed/`
 
 ## Notes méthodologiques
 
 - Le match et la prolongation sont analysés séparément de la séance de tirs au but.
-- La séance de tirs au but est exclue de la plupart des KPI tactiques affichés.
-- La métrique `Pressure` de StatsBomb est interprétée comme un **compte d'événements**, et non comme une mesure directe de la qualité du pressing.
-- Le `xT` utilisé dans les notebooks est un **proxy simplifié de menace territoriale**, et non un modèle académique complet.
-
-## Compétences mobilisées
-
-- analyse de données en Python
-- storytelling avec notebooks Jupyter
-- interprétation de données événementielles football
-- raisonnement tactique
-- visualisation de données
-- présentation de projet sur GitHub
-- structuration d'une application Streamlit
-
-## État du projet
-
-- Analyse notebook : terminée
-- Commentaires markdown : terminés
-- Mise en forme GitHub : en cours
-- Documentation bilingue : en cours
-- Application Streamlit : V1 disponible
-
-## Prochaines étapes
-
-- Finaliser la présentation bilingue GitHub
-- Ajouter des blocs markdown bilingues dans les notebooks
-- Améliorer le polish et le déploiement de l'application Streamlit
-- Préparer le partage GitHub et LinkedIn
+- La séance de tirs au but est exclue des principaux KPI tactiques.
+- `Pressure` est interprété comme un compte d'événements StatsBomb, et non comme une mesure directe de la qualité du pressing.
+- Le `xT` utilisé dans les notebooks est un proxy simplifié de menace territoriale, et non un modèle académique complet.

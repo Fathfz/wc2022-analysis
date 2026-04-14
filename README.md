@@ -2,40 +2,109 @@
 
 English | [Français](README.fr.md)
 
-Football data storytelling project focused on the **2022 FIFA World Cup Final** between **Argentina** and **France**, built with Python, Jupyter notebooks, football event data, tactical interpretation, and visual analytics.
+For many football fans, the **2022 World Cup Final** is the greatest final ever played.
 
-This repository is designed as both:
-- a **portfolio project** in sports analytics,
-- and a **publishable analysis workflow** that moves from context, to data preparation, to match interpretation, to player-level insights.
+Argentina seemed in control, then the match exploded. France came back from nowhere. **Kylian Mbappe** delivered a hat-trick. **Lionel Messi** finally lifted the World Cup with Argentina. The game swung from tactical control to pure chaos, and still ended with one of the most iconic images in football history.
 
-## Project Overview
+That is exactly why this match is worth studying.
 
-This project explores a central question:
+Beyond the emotion, the final raises a deeper analytical question:
 
-**How did Argentina control large phases of the 2022 World Cup Final, and how did France still manage to come back into the match?**
+**If France came back so violently, why did Argentina still look structurally superior for so much of the match?**
 
-To answer it, the project combines:
-- historical context before the final,
-- match and tournament data preparation,
-- team-level tactical analysis,
-- player-level interpretation,
-- exported visual storytelling assets,
-- and a Streamlit application layer for presentation.
+This repository answers that question through event data, tactical interpretation, visual storytelling, and player-level analysis.
 
-## Main Objectives
+## Why This Project Matters
 
-- Compare **Argentina's 4-3-3** and **France's 4-2-3-1**
-- Study how game control, passing structure, and pressing shape the final
-- Analyze shots, xG, momentum, recoveries, and passing networks
-- Connect collective patterns with individual player performances
-- Turn notebook-based work into a stronger GitHub and portfolio project
+This is not just a match recap.
+
+It is a football analytics project built around a final that combined:
+- a dominant opening phase from Argentina,
+- a spectacular French comeback,
+- extra-time tension,
+- an Mbappe hat-trick,
+- Messi's decisive influence,
+- and a tactical story far richer than the final score alone.
+
+The goal is to move from emotion to explanation:
+- Who controlled the ball?
+- Who controlled territory?
+- Why did the match change?
+- Which players carried those shifts?
+
+## Core Question
+
+This project is built around one central idea:
+
+**Argentina and France did not threaten the final in the same way.**
+
+Argentina controlled more of the structure:
+- more continuity in passing,
+- more stable midfield connections,
+- more regular territorial progression,
+- and a clearer collective framework.
+
+France, however, stayed alive through rupture:
+- direct attacks,
+- explosive sequences,
+- individual acceleration,
+- and the extraordinary finishing impact of Mbappe.
+
+The full analysis is therefore not just about who created more, but about **how each team created danger**.
+
+## Analytical Architecture
+
+The repository follows a clear progression from context to interpretation:
+
+1. `00_context_and_historical_background cld.ipynb`  
+   Sets the stage through historical context, FIFA ranking, head-to-head history, and pre-final tactical context.
+
+2. `01_data_collection_and_preparation.ipynb`  
+   Builds the analytical base by isolating the 2022 World Cup, filtering Argentina and France matches, and loading the event data of the final.
+
+3. `02_final_match_eda_and_tactical_overview.ipynb`  
+   This is the **collective core** of the project. It explains how the match evolved through:
+   - event distribution,
+   - shots and xG,
+   - pressing and recoveries,
+   - momentum and turning points,
+   - passing structure,
+   - and tactical reading of Argentina's 4-3-3 against France's 4-2-3-1.
+
+4. `03_player_analysis  .ipynb`  
+   This is the **individual core** of the project. It focuses on:
+   - Messi vs Mbappe,
+   - shot quality and finishing,
+   - dribbling and attacking imbalance,
+   - passing security,
+   - player pass maps,
+   - and the way individual profiles extend the collective story developed in notebook `02`.
+
+## Why Notebooks 02 and 03 Matter Most
+
+The real analytical heart of the project sits in notebooks `02` and `03`.
+
+Notebook `02` explains the match as a tactical system:
+- why Argentina controlled the early game,
+- why France looked disconnected for long stretches,
+- how substitutions changed the texture of the final,
+- and why the match moved from Argentine control to end-game chaos.
+
+Notebook `03` then asks the natural next question:
+- if the collective patterns are real,
+- which players actually embody them?
+
+That is where the contrast becomes especially sharp:
+- **Messi** appears as a player of continuity, connection, and decisive control,
+- **Mbappe** appears as a player of rupture, acceleration, and violent finishing impact,
+- and the rest of both squads help explain why Argentina looked more structured while France remained capable of sudden destruction.
 
 ## Main Insights
 
-- **Argentina controlled the initial structure of the match**, with a denser midfield and more stable passing connections.
-- **France's first phase was more fragmented**, with circulation relying more heavily on the back line and the flanks.
-- **The French comeback was driven by game-state changes and substitutions**, especially in a more vertical and chaotic phase.
-- **Player-level analysis confirms the team-level reading**: Argentine midfielders were central to control, while France's safest passing profiles were often deeper.
+- **Argentina controlled more of the match structure**, especially through midfield density and passing continuity.
+- **France did not dominate the game gradually**; it reshaped it through short, explosive, high-impact sequences.
+- **The final changed nature after the 80th minute**, moving from controlled Argentine superiority to attacking chaos.
+- **Messi and Mbappe symbolize two different kinds of influence**: one built on continuity and playmaking, the other on rupture and finishing violence.
 
 ## Repository Structure
 
@@ -46,6 +115,8 @@ wc2022-analysis/
 ├── data/
 │   ├── processed/
 │   └── raw/
+├── docs/
+│   └── NOTEBOOK_BILINGUAL_TEMPLATE.md
 ├── notebooks/
 │   ├── 00_context_and_historical_background cld.ipynb
 │   ├── 01_data_collection_and_preparation.ipynb
@@ -53,57 +124,22 @@ wc2022-analysis/
 │   └── 03_player_analysis  .ipynb
 ├── reports/
 │   └── figures/
-├── docs/
-│   └── NOTEBOOK_BILINGUAL_TEMPLATE.md
 ├── requirements.txt
 ├── README.md
 └── README.fr.md
 ```
 
-## Notebooks
+## Language Note
 
-1. `00_context_and_historical_background cld.ipynb`  
-   Historical context, FIFA rankings, head-to-head results, World Cup legacy, and pre-final positioning of both teams.
-
-2. `01_data_collection_and_preparation.ipynb`  
-   Data collection logic, filtering, final-match isolation, and preparation of the event data used throughout the project.
-
-3. `02_final_match_eda_and_tactical_overview.ipynb`  
-   Team-level tactical analysis of the final: xG, shots, pressure, recoveries, momentum, structures, and passing networks.
-
-4. `03_player_analysis  .ipynb`  
-   Player-level interpretation focused on passing, dribbling, shot profiles, pressure activity, movement, and tactical roles.
-
-## Language Strategy
-
-- The detailed notebooks are currently written in **French**
-- The repository presentation is being made **bilingual**
-- The next recommended step for the notebooks is **bilingual markdown cells** rather than full notebook duplication
-
-Why this approach:
-- it keeps a **single source of truth** for the analysis,
-- it avoids maintaining two separate notebook versions,
-- and it makes the repository easier to share with both French-speaking and English-speaking audiences.
-
-A reusable bilingual markdown pattern is available in:
-- [docs/NOTEBOOK_BILINGUAL_TEMPLATE.md](docs/NOTEBOOK_BILINGUAL_TEMPLATE.md)
+- The repository presentation is bilingual
+- The notebooks now include **French and English markdown sections**
+- The code and outputs remain single-source, which keeps the analytical workflow consistent
 
 ## Visual Preview
 
 ![Global match dashboard](reports/figures/argentina_france_dashboard.png)
 
 ![Match momentum](reports/figures/momentum_match.png)
-
-## Streamlit Application
-
-A first Streamlit version is available in:
-- `app/streamlit_app.py`
-
-The app is designed to follow the same logic as the notebooks:
-- historical context,
-- data preparation,
-- match-level tactical interpretation,
-- player-level insights.
 
 ## Run The Project Locally
 
@@ -128,37 +164,12 @@ jupyter lab
 ## Data Sources
 
 - StatsBomb Open Data
-- Complementary historical football datasets stored in `data/raw/`
+- Historical football datasets stored in `data/raw/`
 - Processed intermediate files stored in `data/processed/`
 
 ## Methodology Notes
 
 - Match and extra time are analyzed separately from the penalty shootout.
-- The penalty shootout is excluded from most tactical KPI shown in the project.
-- The `Pressure` metric from StatsBomb is interpreted as an **event count**, not as a direct measure of pressing quality.
-- The `xT` shown in the notebooks is a **simplified territorial-threat proxy**, not a full academic expected-threat model.
-
-## Skills Demonstrated
-
-- Python data analysis
-- Jupyter notebook storytelling
-- football event-data interpretation
-- tactical reasoning
-- data visualization
-- GitHub project presentation
-- Streamlit app structuring
-
-## Project Status
-
-- Notebook analysis: completed
-- Markdown commentary: completed
-- GitHub portfolio setup: in progress
-- Bilingual repository documentation: in progress
-- Streamlit application: V1 available
-
-## Next Steps
-
-- Finalize bilingual GitHub presentation
-- Add bilingual markdown sections inside the notebooks
-- Improve Streamlit polish and deployment readiness
-- Prepare GitHub and LinkedIn sharing assets
+- The penalty shootout is excluded from the main tactical KPI.
+- `Pressure` is treated as a StatsBomb event count, not as a direct measure of pressing quality.
+- The `xT` used in the notebooks is a simplified territorial-threat proxy, not a full academic expected-threat model.
