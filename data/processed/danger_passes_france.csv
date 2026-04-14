@@ -1,0 +1,218 @@
+x,y,end_x,end_y,minute,second,player_name
+78.3,17.9,68.1,21.5,69,56,Aurélien Djani Tchouaméni
+72.6,18.1,81.3,3.4,70,0,Adrien Rabiot
+81.3,3.4,98.2,3.4,70,2,Theo Bernard François Hernández
+84.8,71.2,78.8,58.3,80,52,Kingsley Coman
+79.2,54.1,93.1,24.1,80,54,Adrien Rabiot
+93.1,24.1,94.8,36.3,80,56,Kylian Mbappé Lottin
+94.8,36.3,104.8,30.1,80,57,Marcus Thuram
+91.6,33.7,89.3,19.4,93,34,Aurélien Djani Tchouaméni
+90.1,18.3,98.7,2.9,93,36,Eduardo Camavinga
+113.6,19.8,108.9,28.5,93,44,Eduardo Camavinga
+51.5,56.1,67.2,23.7,5,10,Ousmane Dembélé
+77.5,11.1,96.7,7.0,5,13,Adrien Rabiot
+99.6,8.1,95.6,28.9,5,18,Kylian Mbappé Lottin
+84.3,67.0,71.0,73.4,8,55,Antoine Griezmann
+71.0,72.6,62.0,56.9,8,57,Jules Koundé
+62.0,56.9,67.2,39.6,8,59,Raphaël Varane
+67.2,39.6,62.3,36.1,9,0,Aurélien Djani Tchouaméni
+62.3,36.1,75.9,8.9,9,1,Dayotchanculle Upamecano
+75.9,8.9,80.0,16.1,9,3,Theo Bernard François Hernández
+80.0,16.1,106.9,9.4,9,4,Kylian Mbappé Lottin
+109.0,9.1,115.0,45.6,9,7,Theo Bernard François Hernández
+84.6,14.6,82.4,20.7,14,39,Aurélien Djani Tchouaméni
+82.4,20.7,106.4,73.7,14,41,Kylian Mbappé Lottin
+113.8,72.4,111.9,38.9,14,51,Ousmane Dembélé
+103.4,73.3,108.9,44.3,20,17,Ousmane Dembélé
+63.3,62.9,63.8,46.6,29,39,Olivier Giroud
+68.6,45.4,88.0,7.8,29,40,Antoine Griezmann
+117.6,22.4,106.8,55.3,29,50,Kylian Mbappé Lottin
+86.9,15.5,93.1,20.7,32,45,Antoine Griezmann
+92.7,20.7,104.6,19.8,32,46,Olivier Giroud
+94.8,69.9,113.7,71.5,33,22,Ousmane Dembélé
+77.0,50.5,83.9,60.4,36,19,Raphaël Varane
+84.4,63.0,93.5,76.7,36,21,Jules Koundé
+94.7,64.2,110.8,16.9,36,29,Ousmane Dembélé
+110.8,18.1,108.6,45.2,36,32,Kylian Mbappé Lottin
+54.7,63.8,109.3,65.7,39,27,Dayotchanculle Upamecano
+115.6,60.9,106.0,43.8,39,32,Ousmane Dembélé
+32.3,47.0,45.6,53.5,47,16,Adrien Rabiot
+45.5,53.9,49.2,21.0,47,17,Antoine Griezmann
+65.0,14.7,85.7,5.7,47,20,Theo Bernard François Hernández
+32.9,8.9,32.5,18.9,55,49,Antoine Griezmann
+41.2,20.7,55.2,23.4,55,52,Adrien Rabiot
+41.2,6.8,54.5,43.9,58,48,Adrien Rabiot
+54.5,43.9,46.5,36.7,58,49,Aurélien Djani Tchouaméni
+46.5,36.7,54.1,30.9,58,52,Raphaël Varane
+54.1,30.9,56.1,45.8,58,56,Adrien Rabiot
+58.2,45.5,97.2,49.3,58,59,Aurélien Djani Tchouaméni
+20.7,58.8,39.1,13.7,60,13,Aurélien Djani Tchouaméni
+57.8,16.8,85.3,8.7,60,17,Theo Bernard François Hernández
+104.4,22.8,117.4,23.4,60,22,Kylian Mbappé Lottin
+118.7,23.6,110.9,30.5,60,24,Theo Bernard François Hernández
+97.4,65.1,110.7,40.7,78,19,Kingsley Coman
+105.2,21.1,97.1,20.4,78,59,Kylian Mbappé Lottin
+97.1,20.4,112.7,47.3,79,1,Theo Bernard François Hernández
+38.3,50.0,47.2,73.2,84,55,Ibrahima Konaté
+62.3,73.9,112.9,67.9,85,1,Jules Koundé
+103.3,65.2,117.8,36.5,85,8,Antoine Griezmann
+57.4,64.6,67.8,74.5,10,27,Adrien Rabiot
+67.8,75.9,71.6,69.4,10,28,Ousmane Dembélé
+90.2,66.4,104.8,75.2,10,32,Antoine Griezmann
+104.7,75.0,110.3,38.2,10,33,Ousmane Dembélé
+84.6,7.7,81.1,21.7,16,8,Kylian Mbappé Lottin
+83.5,17.8,87.5,34.7,16,11,Dayotchanculle Upamecano
+93.0,49.1,101.3,70.4,16,14,Kylian Mbappé Lottin
+104.5,59.9,97.2,55.3,16,19,Ousmane Dembélé
+98.8,55.7,93.0,50.4,16,21,Antoine Griezmann
+92.3,36.7,117.7,24.3,38,41,Ousmane Dembélé
+118.4,23.7,107.9,32.9,38,44,Theo Bernard François Hernández
+37.5,21.3,31.3,51.7,54,33,Dayotchanculle Upamecano
+45.0,56.2,46.0,73.3,54,38,Raphaël Varane
+47.3,73.3,95.6,43.2,54,40,Jules Koundé
+84.8,26.0,88.8,32.4,60,1,Antoine Griezmann
+93.3,40.6,100.0,64.3,60,4,Kylian Mbappé Lottin
+98.4,20.6,91.3,19.2,74,45,Adrien Rabiot
+91.9,17.8,92.8,15.3,74,48,Aurélien Djani Tchouaméni
+92.8,15.3,80.2,19.8,74,48,Adrien Rabiot
+82.9,19.8,112.9,47.0,74,51,Theo Bernard François Hernández
+56.7,44.9,74.7,9.3,76,10,Antoine Griezmann
+85.0,5.3,91.3,3.6,76,14,Adrien Rabiot
+107.7,11.7,105.4,14.9,76,18,Kylian Mbappé Lottin
+104.2,15.3,111.3,49.6,76,20,Adrien Rabiot
+111.3,49.9,111.3,40.5,76,22,Ousmane Dembélé
+74.5,12.2,93.5,4.0,77,5,Theo Bernard François Hernández
+97.9,3.1,114.7,36.4,77,8,Antoine Griezmann
+77.9,6.3,71.4,13.6,4,23,Kylian Mbappé Lottin
+72.6,13.6,63.4,41.0,4,25,Youssouf Fofana
+72.2,61.3,93.4,57.0,4,30,Raphaël Varane
+110.0,55.2,107.3,43.8,4,34,Antoine Griezmann
+16.5,17.7,79.2,14.1,16,25,Ibrahima Konaté
+69.2,12.8,86.8,7.7,32,15,Theo Bernard François Hernández
+106.4,20.6,96.0,32.9,32,22,Kylian Mbappé Lottin
+80.3,22.7,106.8,23.5,35,8,Aurélien Djani Tchouaméni
+64.5,17.4,74.8,6.0,46,44,Theo Bernard François Hernández
+115.3,23.5,95.0,51.8,46,52,Kylian Mbappé Lottin
+78.1,21.8,93.5,16.0,73,25,Youssouf Fofana
+107.2,20.1,106.4,27.5,73,29,Marcus Thuram
+56.7,39.7,64.0,41.7,78,34,Aurélien Djani Tchouaméni
+89.5,48.9,92.4,37.0,78,39,Youssouf Fofana
+94.2,26.3,105.5,23.9,78,41,Kylian Mbappé Lottin
+108.7,26.7,103.4,26.9,78,45,Marcus Thuram
+56.8,53.9,44.1,11.3,9,47,Antoine Griezmann
+45.2,11.1,51.5,5.6,9,49,Theo Bernard François Hernández
+58.5,5.3,80.2,3.9,9,52,Adrien Rabiot
+116.9,18.1,111.4,53.3,9,58,Kylian Mbappé Lottin
+61.0,46.0,64.4,21.8,11,51,Aurélien Djani Tchouaméni
+66.1,16.5,93.5,2.0,11,54,Adrien Rabiot
+98.9,2.0,87.8,3.5,11,58,Theo Bernard François Hernández
+87.8,3.5,84.3,14.1,12,0,Kylian Mbappé Lottin
+84.3,14.1,81.9,24.1,12,2,Adrien Rabiot
+76.4,36.0,80.5,21.1,21,8,Aurélien Djani Tchouaméni
+80.5,20.8,96.2,2.9,21,9,Adrien Rabiot
+97.5,3.5,91.9,6.2,21,14,Theo Bernard François Hernández
+89.9,7.2,81.0,18.1,21,17,Kylian Mbappé Lottin
+81.0,18.1,86.5,42.7,21,19,Aurélien Djani Tchouaméni
+67.4,23.0,70.3,24.2,34,40,Dayotchanculle Upamecano
+97.3,21.7,106.5,10.5,34,47,Antoine Griezmann
+80.7,47.9,70.3,45.1,43,14,Ousmane Dembélé
+70.3,45.1,90.5,73.3,43,15,Raphaël Varane
+89.9,73.3,86.4,58.2,43,19,Jules Koundé
+86.4,58.2,83.4,49.0,43,22,Ousmane Dembélé
+84.4,30.1,94.4,24.8,43,25,Dayotchanculle Upamecano
+94.4,24.8,104.9,29.5,43,26,Kylian Mbappé Lottin
+90.7,26.0,98.9,14.5,55,48,Antoine Griezmann
+76.0,50.2,91.8,65.8,62,27,Aurélien Djani Tchouaméni
+102.5,62.6,115.8,24.1,62,31,Antoine Griezmann
+115.8,24.1,113.4,30.1,62,40,Kylian Mbappé Lottin
+106.8,72.0,93.7,64.1,64,54,Jules Koundé
+91.2,60.3,101.2,70.3,64,57,Ousmane Dembélé
+98.0,69.0,87.1,59.4,65,0,Antoine Griezmann
+86.2,58.8,106.8,71.8,65,4,Aurélien Djani Tchouaméni
+11.8,41.9,42.8,34.6,73,42,Antoine Griezmann
+62.7,46.2,71.5,72.3,73,48,Olivier Giroud
+90.3,57.3,100.8,29.5,73,53,Ousmane Dembélé
+107.0,8.9,93.5,24.1,80,50,Kylian Mbappé Lottin
+93.9,24.1,101.0,18.1,80,52,Theo Bernard François Hernández
+82.2,24.6,105.5,8.9,89,53,Kylian Mbappé Lottin
+112.3,13.4,106.1,24.1,90,3,Marcus Thuram
+78.6,37.1,89.1,73.3,25,26,Dayotchanculle Upamecano
+99.3,68.8,108.3,53.4,25,31,Ousmane Dembélé
+88.8,24.0,111.6,42.0,26,0,Theo Bernard François Hernández
+103.8,64.3,92.6,17.9,28,52,Ousmane Dembélé
+92.6,17.9,100.3,13.0,28,55,Theo Bernard François Hernández
+97.2,13.6,112.3,39.8,28,57,Antoine Griezmann
+111.0,27.4,110.5,39.2,31,17,Adrien Rabiot
+73.4,20.1,69.2,22.7,35,49,Adrien Rabiot
+70.1,29.0,62.3,32.9,35,50,Kylian Mbappé Lottin
+72.1,59.0,67.2,69.1,35,56,Aurélien Djani Tchouaméni
+67.5,69.4,78.7,76.5,35,57,Benjamin Pavard
+110.2,74.0,105.0,47.2,36,2,Ousmane Dembélé
+11.6,69.9,26.8,77.9,39,14,Ibrahima Konaté
+28.6,74.6,34.4,63.6,39,16,Benjamin Pavard
+32.5,60.7,47.7,10.2,39,18,Antoine Griezmann
+75.6,15.6,96.5,15.2,39,24,Theo Bernard François Hernández
+109.6,21.5,106.5,38.2,39,27,Kylian Mbappé Lottin
+111.4,56.9,105.9,49.9,41,51,Ousmane Dembélé
+106.4,49.5,99.5,47.5,41,53,Kylian Mbappé Lottin
+57.3,66.3,48.4,53.7,44,24,Benjamin Pavard
+48.3,50.8,55.8,58.0,44,26,Ibrahima Konaté
+53.5,56.9,53.5,34.6,44,28,Adrien Rabiot
+65.5,42.3,101.0,56.0,44,33,Dayotchanculle Upamecano
+109.8,54.4,112.9,40.2,44,37,Antoine Griezmann
+47.8,51.8,55.6,22.3,48,59,Ibrahima Konaté
+70.2,18.5,99.3,13.3,49,4,Dayotchanculle Upamecano
+72.5,33.1,77.9,36.2,49,19,Ibrahima Konaté
+77.9,36.2,69.8,20.7,49,20,Aurélien Djani Tchouaméni
+75.2,14.8,101.3,4.2,49,22,Dayotchanculle Upamecano
+116.8,8.9,111.6,44.2,49,26,Theo Bernard François Hernández
+74.7,9.7,65.1,34.6,59,59,Dayotchanculle Upamecano
+65.0,39.5,68.1,51.5,60,1,Benjamin Pavard
+76.9,23.1,90.1,26.7,60,8,Dayotchanculle Upamecano
+90.1,26.7,93.6,35.1,60,9,Kylian Mbappé Lottin
+93.6,34.8,107.5,31.1,60,10,Olivier Giroud
+90.5,29.1,83.7,50.0,61,47,Kylian Mbappé Lottin
+79.1,44.6,70.2,48.8,61,50,Benjamin Pavard
+67.6,44.4,70.8,23.5,61,52,Aurélien Djani Tchouaméni
+77.7,23.1,106.1,5.3,61,55,Dayotchanculle Upamecano
+113.6,8.0,108.9,33.2,61,58,Theo Bernard François Hernández
+57.6,36.7,94.1,28.5,63,46,Dayotchanculle Upamecano
+87.8,50.4,93.1,43.3,66,21,Antoine Griezmann
+93.1,43.3,87.8,45.6,66,21,Olivier Giroud
+87.8,44.2,96.5,15.1,66,23,Antoine Griezmann
+103.1,11.8,104.0,23.3,66,26,Theo Bernard François Hernández
+104.0,23.3,112.0,20.1,66,27,Kylian Mbappé Lottin
+117.6,26.9,105.3,36.2,66,29,Theo Bernard François Hernández
+68.6,48.2,71.1,62.5,66,42,Ibrahima Konaté
+71.1,62.5,68.7,49.1,66,44,Benjamin Pavard
+68.7,50.6,77.1,51.0,66,45,Ibrahima Konaté
+77.1,51.0,73.1,20.5,66,46,Adrien Rabiot
+74.7,17.0,87.1,3.8,66,48,Dayotchanculle Upamecano
+91.1,5.0,115.7,24.7,66,51,Theo Bernard François Hernández
+111.4,63.3,113.5,42.2,67,2,Ousmane Dembélé
+48.6,43.8,51.2,28.5,70,38,Ibrahima Konaté
+51.2,28.5,86.9,4.2,70,40,Dayotchanculle Upamecano
+116.8,15.1,113.5,42.6,70,49,Kylian Mbappé Lottin
+86.5,50.4,93.9,76.4,90,11,Antoine Griezmann
+95.7,76.7,83.1,62.8,90,15,Jules Koundé
+81.8,62.8,93.6,61.7,90,17,Youssouf Fofana
+93.6,61.7,90.3,74.8,90,18,Antoine Griezmann
+92.9,76.1,93.6,60.8,90,21,Jules Koundé
+94.1,60.0,112.8,32.1,90,24,Antoine Griezmann
+29.3,10.3,22.9,35.0,24,36,Randal Kolo Muani
+24.5,37.2,50.8,58.9,24,39,Aurélien Djani Tchouaméni
+91.0,53.9,108.5,32.8,24,46,Youssouf Fofana
+53.8,37.0,70.1,45.4,46,38,Aurélien Djani Tchouaméni
+67.9,5.1,78.7,4.9,84,14,Eduardo Camavinga
+84.1,21.0,115.1,66.6,84,22,Kylian Mbappé Lottin
+115.5,66.0,109.7,27.8,84,26,Ousmane Dembélé
+87.8,15.4,88.0,24.8,88,10,Kylian Mbappé Lottin
+88.0,24.8,86.0,13.2,88,11,Antoine Griezmann
+86.6,7.6,96.8,5.1,88,13,Adrien Rabiot
+96.6,5.1,107.2,9.2,88,14,Eduardo Camavinga
+75.6,15.2,88.2,3.5,89,1,Antoine Griezmann
+82.7,4.4,87.2,22.0,89,6,Randal Kolo Muani
+88.4,19.6,95.1,18.8,89,7,Kylian Mbappé Lottin
+95.1,18.8,92.0,23.9,89,7,Antoine Griezmann
+92.0,23.9,93.4,19.2,89,8,Kylian Mbappé Lottin
+93.4,21.6,92.4,30.7,89,9,Antoine Griezmann

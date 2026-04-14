@@ -1,0 +1,163 @@
+x,y,end_x,end_y,minute,second,player_name
+87.2,73.0,70.2,60.5,16,15,Nahuel Molina Lucero
+69.1,59.5,69.4,50.5,16,17,Rodrigo Javier De Paul
+69.4,51.9,70.6,58.3,16,18,Lionel Andrés Messi Cuccittini
+72.1,55.7,75.2,44.8,16,20,Rodrigo Javier De Paul
+75.2,45.4,67.9,43.4,16,21,Enzo Fernandez
+73.1,34.9,92.0,2.9,16,23,Lionel Andrés Messi Cuccittini
+102.9,65.6,95.5,50.8,34,31,Lionel Andrés Messi Cuccittini
+97.4,49.2,106.0,52.6,34,33,Alexis Mac Allister
+106.7,51.5,105.2,49.2,34,34,Nicolás Hernán Otamendi
+54.8,60.8,58.4,47.0,49,46,Rodrigo Javier De Paul
+65.8,51.4,105.2,77.2,49,47,Lionel Andrés Messi Cuccittini
+103.8,46.0,98.5,39.1,49,57,Alexis Mac Allister
+104.6,75.7,87.3,75.9,65,42,Alexis Mac Allister
+86.7,74.5,85.6,64.1,65,44,Nahuel Molina Lucero
+90.9,59.2,93.3,41.6,65,47,Rodrigo Javier De Paul
+76.9,61.3,72.9,54.7,87,6,Enzo Fernandez
+72.9,54.7,79.3,56.6,87,7,Exequiel Alejandro Palacios
+76.2,59.2,80.4,60.8,87,10,Lionel Andrés Messi Cuccittini
+93.9,56.7,108.3,52.3,87,13,Rodrigo Javier De Paul
+102.1,44.5,107.6,31.9,88,10,Lionel Andrés Messi Cuccittini
+91.2,35.2,104.3,29.2,92,8,Lionel Andrés Messi Cuccittini
+74.1,76.5,77.1,66.8,92,41,Rodrigo Javier De Paul
+104.4,73.1,95.5,66.8,93,29,Lionel Andrés Messi Cuccittini
+95.5,66.8,101.8,73.4,93,31,Rodrigo Javier De Paul
+100.5,73.1,104.0,76.2,93,35,Lionel Andrés Messi Cuccittini
+92.2,35.7,93.4,44.8,93,49,Enzo Fernandez
+96.7,48.7,104.6,52.3,93,51,Exequiel Alejandro Palacios
+99.9,38.2,103.2,33.6,93,57,Lionel Andrés Messi Cuccittini
+87.0,60.1,109.6,61.3,4,29,Lionel Andrés Messi Cuccittini
+93.1,77.1,89.9,65.1,21,33,Rodrigo Javier De Paul
+53.7,20.3,51.5,30.2,32,28,Marcos Javier Acuña
+62.2,43.6,68.0,57.0,32,31,Alexis Mac Allister
+74.6,64.7,101.7,73.5,32,33,Rodrigo Javier De Paul
+111.2,71.5,99.2,51.2,32,36,Nahuel Molina Lucero
+100.4,53.4,97.6,42.3,32,38,Alexis Mac Allister
+81.5,69.2,74.2,71.1,33,57,Nahuel Molina Lucero
+85.6,44.9,103.4,50.6,34,2,Lionel Andrés Messi Cuccittini
+105.4,21.8,104.7,36.4,39,5,Julián Álvarez
+98.5,10.2,92.9,11.3,7,22,Ángel Fabián Di María Hernández
+89.5,12.3,84.1,21.3,7,23,Alexis Mac Allister
+115.1,21.3,98.7,51.7,7,32,Ángel Fabián Di María Hernández
+89.3,58.8,110.2,56.8,16,11,Lionel Andrés Messi Cuccittini
+110.2,56.8,106.4,45.5,16,13,Rodrigo Javier De Paul
+107.9,8.3,91.4,11.9,31,23,Ángel Fabián Di María Hernández
+93.1,11.9,87.1,18.8,31,25,Alexis Mac Allister
+87.1,18.1,90.8,2.5,31,27,Enzo Fernandez
+90.8,2.5,98.5,18.3,31,32,Alexis Mac Allister
+100.4,20.5,90.1,20.5,31,33,Nicolás Alejandro Tagliafico
+41.8,59.0,53.1,61.8,35,14,Alexis Mac Allister
+52.9,61.8,62.5,68.2,35,15,Lionel Andrés Messi Cuccittini
+63.2,68.2,99.3,54.9,35,17,Julián Álvarez
+99.3,54.9,111.8,32.1,35,20,Alexis Mac Allister
+69.8,35.0,78.8,44.0,48,43,Cristian Gabriel Romero
+81.3,32.9,99.7,22.4,48,45,Lionel Andrés Messi Cuccittini
+106.8,20.9,103.3,52.3,48,48,Ángel Fabián Di María Hernández
+84.7,20.3,98.2,26.7,58,18,Ángel Fabián Di María Hernández
+112.1,22.4,106.6,37.0,59,49,Ángel Fabián Di María Hernández
+112.6,7.9,99.5,9.6,71,22,Alexis Mac Allister
+106.8,23.9,98.2,31.8,71,29,Lionel Andrés Messi Cuccittini
+88.6,29.5,94.8,23.9,83,10,Rodrigo Javier De Paul
+107.0,17.5,114.1,11.7,83,14,Julián Álvarez
+107.8,14.7,90.9,31.2,83,21,Marcos Javier Acuña
+52.0,34.8,69.3,12.8,96,23,Alexis Mac Allister
+70.2,12.8,95.4,9.2,96,26,Marcos Javier Acuña
+95.4,8.1,89.5,31.0,96,32,Julián Álvarez
+89.5,31.0,92.0,54.7,96,34,Rodrigo Javier De Paul
+105.7,6.5,94.1,11.0,6,20,Marcos Javier Acuña
+93.1,11.8,95.9,36.5,6,25,Alexis Mac Allister
+62.6,22.8,79.9,34.1,8,45,Alexis Mac Allister
+87.8,37.3,91.7,47.3,8,49,Lionel Andrés Messi Cuccittini
+94.4,63.2,95.4,32.5,9,48,Ángel Fabián Di María Hernández
+94.9,6.6,84.9,17.9,15,57,Marcos Javier Acuña
+84.9,18.1,74.7,28.8,15,59,Alexis Mac Allister
+74.7,34.1,80.5,54.1,16,1,Enzo Fernandez
+83.4,52.7,108.1,25.8,16,5,Lionel Andrés Messi Cuccittini
+75.7,66.7,99.7,77.1,27,49,Cristian Gabriel Romero
+99.7,76.1,114.8,61.6,27,52,Ángel Fabián Di María Hernández
+115.7,60.6,110.8,47.7,27,54,Nahuel Molina Lucero
+104.7,77.7,93.8,61.7,34,18,Rodrigo Javier De Paul
+93.8,61.9,90.7,40.9,34,21,Lionel Andrés Messi Cuccittini
+42.0,48.2,48.3,54.5,34,59,Nicolás Hernán Otamendi
+48.3,54.8,44.0,46.9,34,59,Enzo Fernandez
+44.0,46.9,54.0,37.2,35,2,Nicolás Hernán Otamendi
+86.3,32.8,102.3,33.4,35,7,Alexis Mac Allister
+88.3,41.4,87.0,46.2,42,0,Lionel Andrés Messi Cuccittini
+86.0,45.1,89.7,36.7,42,1,Ángel Fabián Di María Hernández
+90.8,35.2,98.9,23.6,42,2,Alexis Mac Allister
+89.1,59.6,101.8,73.2,43,10,Rodrigo Javier De Paul
+67.2,69.0,48.6,62.6,45,39,Rodrigo Javier De Paul
+56.1,63.7,75.1,67.7,45,45,Cristian Gabriel Romero
+80.3,68.6,92.7,73.5,45,47,Nahuel Molina Lucero
+102.1,72.0,110.4,71.6,45,50,Ángel Fabián Di María Hernández
+114.3,69.9,106.0,46.7,45,52,Nahuel Molina Lucero
+49.9,47.8,67.4,63.2,55,28,Cristian Gabriel Romero
+84.8,61.8,91.8,60.3,55,33,Nahuel Molina Lucero
+91.8,60.3,88.0,69.5,55,34,Rodrigo Javier De Paul
+86.0,61.5,92.9,50.0,55,36,Ángel Fabián Di María Hernández
+74.5,57.0,74.7,67.5,60,30,Alexis Mac Allister
+75.6,58.1,98.7,21.3,60,33,Lionel Andrés Messi Cuccittini
+106.2,24.1,106.0,46.0,60,37,Nicolás Alejandro Tagliafico
+82.6,45.1,87.8,50.6,66,43,Leandro Daniel Paredes
+87.1,51.9,92.9,64.5,66,45,Alexis Mac Allister
+95.2,64.5,86.9,58.1,66,48,Rodrigo Javier De Paul
+87.3,55.3,78.3,41.4,66,50,Alexis Mac Allister
+77.1,38.2,86.0,22.6,66,52,Leandro Daniel Paredes
+97.4,29.5,103.6,29.5,66,56,Enzo Fernandez
+63.2,55.8,56.5,60.5,70,23,Julián Álvarez
+56.5,60.5,58.7,9.1,70,23,Lionel Andrés Messi Cuccittini
+59.3,9.1,74.5,2.7,70,27,Nicolás Alejandro Tagliafico
+113.2,14.5,106.5,35.1,70,35,Enzo Fernandez
+26.4,22.8,27.4,69.5,72,31,Nicolás Hernán Otamendi
+26.6,72.4,46.9,62.0,72,35,Nahuel Molina Lucero
+44.1,68.4,58.5,70.7,72,37,Rodrigo Javier De Paul
+59.3,69.0,95.7,49.3,72,40,Lionel Andrés Messi Cuccittini
+50.1,51.3,56.7,60.7,91,46,Germán Alejandro Pezzella
+67.7,63.5,80.3,50.8,91,52,Cristian Gabriel Romero
+81.6,48.7,90.8,44.9,91,54,Lionel Andrés Messi Cuccittini
+91.6,45.1,90.5,32.7,91,55,Lautaro Javier Martínez
+90.5,31.6,108.2,30.2,91,56,Thiago Ezequiel Almada
+101.7,68.8,112.7,39.5,39,57,Ángel Fabián Di María Hernández
+80.2,77.7,72.0,72.3,63,19,Ángel Fabián Di María Hernández
+74.1,69.8,81.0,58.2,63,22,Lionel Andrés Messi Cuccittini
+82.7,63.3,90.6,76.0,63,25,Enzo Fernandez
+97.4,68.5,93.3,37.6,63,30,Ángel Fabián Di María Hernández
+90.4,20.5,96.0,22.6,69,30,Exequiel Alejandro Palacios
+90.9,26.8,87.2,33.2,69,31,Julián Álvarez
+87.4,32.0,97.4,21.0,69,34,Lionel Andrés Messi Cuccittini
+97.4,21.0,106.6,10.2,69,35,Exequiel Alejandro Palacios
+106.6,10.2,101.5,49.2,69,36,Marcos Javier Acuña
+108.9,8.8,100.7,17.3,86,36,Lionel Andrés Messi Cuccittini
+72.4,45.6,84.2,37.1,24,30,Leandro Daniel Paredes
+91.3,36.6,93.3,28.9,24,32,Alexis Mac Allister
+72.4,54.4,89.9,10.8,40,36,Lionel Andrés Messi Cuccittini
+105.8,18.4,95.1,24.7,40,44,Enzo Fernandez
+94.3,32.7,95.1,46.2,40,47,Alexis Mac Allister
+91.6,36.2,85.6,40.1,48,23,Rodrigo Javier De Paul
+38.6,41.3,62.4,44.2,56,52,Cristian Gabriel Romero
+68.0,44.2,76.7,42.7,56,56,Rodrigo Javier De Paul
+99.8,26.3,99.8,32.1,57,2,Lionel Andrés Messi Cuccittini
+101.9,30.7,108.7,28.8,57,3,Enzo Fernandez
+64.1,76.4,65.3,79.1,68,34,Julián Álvarez
+86.8,22.0,81.9,29.2,81,59,Alexis Mac Allister
+100.2,30.9,107.1,46.7,82,11,Paulo Bruno Exequiel Dybala
+42.6,19.2,40.8,47.0,1,20,Leandro Daniel Paredes
+46.4,55.6,93.1,74.7,1,24,Cristian Gabriel Romero
+106.4,64.6,106.7,42.9,1,31,Ángel Fabián Di María Hernández
+113.4,63.2,107.0,63.6,19,51,Lautaro Javier Martínez
+107.0,63.6,101.4,54.7,19,52,Ángel Fabián Di María Hernández
+96.3,28.0,104.4,5.5,62,38,Rodrigo Javier De Paul
+104.0,7.4,91.6,24.6,62,41,Lionel Andrés Messi Cuccittini
+92.0,24.8,113.8,59.4,62,43,Rodrigo Javier De Paul
+112.6,59.4,111.1,39.9,62,46,Nicolás Hernán Otamendi
+111.7,66.9,116.0,6.2,71,41,Nahuel Molina Lucero
+116.8,5.5,96.7,37.6,71,48,Marcos Javier Acuña
+94.8,40.6,105.3,58.3,71,52,Lionel Andrés Messi Cuccittini
+28.3,39.3,46.5,75.0,73,24,Enzo Fernandez
+46.5,75.0,56.7,56.2,73,28,Nahuel Molina Lucero
+98.2,10.0,86.5,18.3,83,21,Marcos Javier Acuña
+86.5,18.6,81.8,40.8,83,23,Enzo Fernandez
+81.8,40.8,99.1,65.8,83,26,Rodrigo Javier De Paul
+99.1,65.8,113.6,32.2,83,29,Ángel Fabián Di María Hernández
+87.5,69.5,112.5,33.2,100,1,Ángel Fabián Di María Hernández
